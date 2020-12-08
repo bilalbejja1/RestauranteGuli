@@ -15,6 +15,7 @@ function filtrado($datos)
 
 //Acción de cargar los libros en la página principal
 if (isset($_POST['action'])) {
+    
     // RESERVAS DE HOY
     if ($_POST['action'] == "loadReservas") {
         $current_date = date("Y-m-d");
